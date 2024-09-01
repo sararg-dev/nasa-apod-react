@@ -3,6 +3,10 @@
 
 Web application that displays the image of the day provided by NASA. Users can also choose from available dates to view other astronomical images and select a random image. Additionally, they can save their favorite images in the favorites section.
 🌟
+
+<img width="800" alt="apodApp" src="https://github.com/sararg-dev/nasa-apod-react/blob/4e96098e9fa6f9e0713395dd5fc644378461d0c6/mainView.PNG">
+
+
 ## Technologies Used 🛠️
 
 - React, Vitejs, Nodejs
