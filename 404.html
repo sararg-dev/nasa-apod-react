@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/" />
+    <script>
+      (function (window) {
+        var url = window.location.pathname;
+        if (url && url !== '/' && !url.startsWith('/nasa-apod-react')) {
+          window.location.href = '/nasa-apod-react' + url;
+        }
+      })(window);
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
