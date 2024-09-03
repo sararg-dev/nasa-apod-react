@@ -1,0 +1,18 @@
+
+.randomButton {
+  letter-spacing: 2px;
+  color: #ccd0cf !important;
+  border: 2px solid #ccd0cf !important;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.randomButton:hover {
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 25px #ccd0cf, 0 0 50px #691f1f;
+  }
+}

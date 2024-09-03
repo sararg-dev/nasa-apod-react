@@ -1,0 +1,46 @@
+.active {
+  color: var(--text-active);
+}
+
+.my-navbar {
+  background-color: #06141b;
+}
+
+.brand-name {
+  font-family: "Audiowide", sans-serif;
+  color: #ccd0cf !important;
+}
+
+.nav-link {
+  color: #ccd0cf !important;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin: auto;
+  background: #ccd0cf;
+  transition: width 0.3s;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active {
+  color: #4a5c6a !important;
+  font-weight: bolder;
+}
+
+.navbar-toggler, .navbar-toggler.collapsed, .navbar-toggler:hover {
+  background-color: #ccd0cf !important;
+}

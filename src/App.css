@@ -1,0 +1,25 @@
+/* Colores Principales */
+:root {
+  --background: #06141b;
+  --text-active: #9ba8ab;
+  --text: #ccd0cf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'B612 Mono', monospace !important;
+  height: 100vh;
+  background-color: var(--background) !important;
+  color: var(--text);
+}
+
+.icono {
+  margin-right: 10px;
+}

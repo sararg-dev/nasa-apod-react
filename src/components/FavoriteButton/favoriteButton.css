@@ -1,0 +1,31 @@
+.favoriteButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  letter-spacing: 2px;
+  color: #ccd0cf !important;
+  border: 2px solid #ccd0cf !important;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.favoriteButton:hover {
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 25px #ccd0cf, 0 0 20px #aaaaaa;
+  }
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+  
+  .favoriteButton {
+    position: static !important;
+    margin: 0 auto; 
+    display: inline-block;
+  }
+}
