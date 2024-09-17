@@ -4,6 +4,8 @@
 Web application that displays the image of the day provided by NASA. Users can also choose from available dates to view other astronomical images and select a random image. Additionally, they can save their favorite images in the favorites section.
 🌟
 
+👀 Live preview: https://sararg-dev.github.io/nasa-apod-react/
+
 <img width="800" alt="apodApp" src="https://github.com/sararg-dev/nasa-apod-react/blob/4e96098e9fa6f9e0713395dd5fc644378461d0c6/mainView.PNG">
 
 
@@ -18,7 +20,6 @@ Web application that displays the image of the day provided by NASA. Users can a
 ### API
 - APOD API by NASA (https://api.nasa.gov/)
 
-👁️‍🗨️ You can view the complete code in this repository or see the live page at the following link: https://sararg-dev.github.io/nasa-apod-react/
 ## Contact ✉️
 
 For any questions or suggestions, you can contact me via:
